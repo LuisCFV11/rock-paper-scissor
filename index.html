@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Rock Paper Scissors Game</title>
+<link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <header>
+        <h1>Piedra, Papel o Tijera</h1>
+    </header>
+    <div class="marcador">
+    <div id="etiqueta-jugador" class="logo">jugador</div>
+    <div id="etiqueta-computadora" class="logo">computadora</div>
+    <span id= puntuacion-usuario>0</span>
+    <span id= puntuacion-computadora>0</span>
+    </div>
+
+    <div class="resultado">
+    <p>papel cubre a piedra. Ganaste!</p>
+    </div>
+
+    <div class="elige">
+        <div class="seleccion" id="r">
+            <img src="images/rock.png" alt="Piedra">
+        </div>
+        <div class="seleccion" id="p">
+            <img src="images/paper.png" alt="Papel">
+        </div>
+        <div class="seleccion" id="s">
+            <img src="images/scissors.png" alt="Tijera">
+        </div>
+    </div>
+    <p id="mensaje-accion">Haz tu elección!</p>
+    <script src="app.js" charset="UTF-8"></script>
+</body>   
+</html>
