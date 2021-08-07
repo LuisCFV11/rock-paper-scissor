@@ -66,7 +66,7 @@ function game(userChoice) {
         break;
         case "rr":
         case "pp":
-        case "sr":
+        case "ss":
         draw(userChoice, computerChoice);
         break;
     }
