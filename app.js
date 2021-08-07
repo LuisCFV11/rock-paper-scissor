@@ -10,7 +10,7 @@
 
 function getComputerChoice() {
     const choices = ['r','p', 's'];
-    const randomNumber = (Math.floor(Math.random() * 3))
+    const randomNumber = (Math.floor(Math.random() * 3.6))
     return choices[randomNumber];
 }
 function cambiarPalabra(letter) {
